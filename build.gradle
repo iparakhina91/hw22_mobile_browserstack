@@ -32,6 +32,8 @@ allure {
 dependencies {
     testImplementation (
             "com.codeborne:selenide:$selenideVersion",
+            "io.rest-assured:rest-assured:$restAssuredVersion",
+            "io.qameta.allure:allure-rest-assured:$allureVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
             "io.appium:java-client:8.3.0",
             "io.rest-assured:rest-assured:$restAssuredVersion",
